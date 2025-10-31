@@ -1,0 +1,11 @@
+PROJECT_NAME           = "Sistema de Gestión de Sensores IoT"
+PROJECT_BRIEF         = "Sistema polimórfico para gestión de sensores"
+OUTPUT_DIRECTORY      = doc
+GENERATE_LATEX        = YES
+GENERATE_HTML         = YES
+INPUT                 = include src
+FILE_PATTERNS        = *.h *.cpp
+RECURSIVE            = YES
+EXTRACT_ALL          = YES
+EXTRACT_PRIVATE      = YES
+EXTRACT_STATIC       = YES
